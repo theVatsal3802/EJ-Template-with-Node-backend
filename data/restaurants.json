@@ -1,9 +1,1 @@
-[
-    {
-        "name": "ABCD",
-        "address": "Home",
-        "cuisine": "Italian",
-        "website": "https://bestfood.com",
-        "description": "Best Indian food."
-    }
-]
+[{"name":"ABCD","address":"Home","cuisine":"Italian","website":"https://bestfood.com","description":"Best Indian food.","id":"r1"},{"name":"Gaurav Foods","address":"Kasarvadavali","cuisine":"Indian","website":"https://gauravfoods.com","description":"Authentic Indian Food","id":"658000be-3a68-40be-bfdd-3af197ded9a1"},{"name":"Bombay Foods","address":"Thane","cuisine":"Chaat","website":"https://bombayfoods.com","description":"Good food.","id":"d52cbd24-bb6e-4173-bc30-ea01372bc7b3"}]

@@ -3,7 +3,7 @@
 
 <head>
   <%- include('./includes/head') %>
-    <link rel="stylesheet" href="styles/restaurants.css" />
+    <link rel="stylesheet" href="/styles/restaurants.css" />
 </head>
 
 <body>
@@ -14,6 +14,10 @@
         <% if (restaurants.length !==0) { %>
           <p>Find your next favorite restaurants with help of our other users!</p>
           <p>We found <%= number %> restaurants.</p>
+          <form action="/restaurants" method="get">
+            <input type="hidden" name="order" value="<%= nextOrder %>">
+            <button type="submit" class="btn">Change Order</button>
+          </form>
           <ul id="restaurants-list">
             <% for (const restaurant of restaurants) { %>
               <%- include('./includes/restaurants/restaurant-item', {restaurant: restaurant} ) %>

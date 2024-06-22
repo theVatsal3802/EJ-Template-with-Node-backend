@@ -6,15 +6,16 @@ main {
 }
 
 main h1 {
-  font-family: 'Roboto Condensed', 'Roboto', sans-serif;
-  color:rgb(202, 158, 62);
+  font-family: "Roboto Condensed", "Roboto", sans-serif;
+  color: rgb(202, 158, 62);
 }
 
 main ul {
   list-style: none;
-  margin: 3rem 0;
+  margin: 3rem auto;
   padding: 0;
   display: flex;
+  justify-content: center;
 }
 
 main li {
